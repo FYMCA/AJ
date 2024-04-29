@@ -1,0 +1,27 @@
+Math.js
+exports.add=function(a,b)
+{
+return a+b;
+}
+
+exports.sub=function(a,b)
+{
+return a-b;
+}
+exports.mul=function(a,b)
+{
+return a*b;
+}
+exports.div=function(a,b)
+{
+return a/b;
+}
+
+Matheg.js:-
+var Math=require('./math');
+var a=20,b=20;
+console.log("Addition:-"+Math.add(a,b));
+console.log("Substraction:-"+Math.sub(a,b));
+console.log("Multiplication:-"+Math.mul(a,b));
+
+console.log("Division:-"+Math.div(a,b));
