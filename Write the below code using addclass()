@@ -1,0 +1,29 @@
+<html>
+<head>
+<title> filter method </title>
+<head>
+<script src="jquery-3.7.1.min.js">
+</script>
+<script type = "text/javascript" language = "javascript">
+$(document).ready(function()
+{
+$("li").filter(".c2").addClass("selected");
+});
+</script>
+<style>
+.selected {color:blue;}
+</style>
+</head>
+<body>
+<div>
+<ul>
+<li class="c1"> MBA </li>
+
+<li class="c1"> MCA </li>
+<li class="c2"> BTech AI</li>
+<li class="c3"> BTech CSD </li>
+<li class="c2"> BCA </li>
+</ul>
+</div>
+</body>
+</html>
