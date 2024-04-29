@@ -1,0 +1,41 @@
+<html>
+<head>
+<title> refining selections</title>
+<script src="jquery-3.7.1.min.js">
+</script>
+<script type="text/javascript" language ="javascript">
+$(document).ready(function()
+{
+$("p").find("span").addClass("selected");
+});
+</script>
+<style>
+.selected {color:red;}
+</style>
+</head>
+
+<body>
+<p> 1st para:<span>Dr. D. Y. Patil</span></p>
+<p> 2nd para:<span>Jquery</span></p>
+</body>
+</html>
+<html>
+<head>
+<title> refining selections</title>
+<script src="jquery-3.7.1.min.js">
+</script>
+<script type="text/javascript" language ="javascript">
+$(document).ready(function()
+{
+$("p").find("span").addClass("selected");
+});
+</script>
+<style>
+.selected {color:red;}
+</style>
+</head>
+<body>
+<p> 1st para:<span>Dr. D. Y. Patil</span></p>
+<p> 2nd para:<span>Jquery</span></p>
+</body>
+</html>
